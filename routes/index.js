@@ -16,9 +16,5 @@ router.get('/info', function(req, res, next) {
   res.render('content/info', { title: 'Info Page' });
 });
 
-router.get('/joe', function(req, res, next) {
-  res.render('content/joe');
-});
-
 
 module.exports = router;
